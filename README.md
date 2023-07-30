@@ -20,6 +20,8 @@ Then open two terminals and navigate to below paths in each terminal:
 1. Root path - /grocery-tracker
 2. backend path - /grocery-tracker/src/backend/
 
+In the root path, run `npm install` to install the required node packages
+
 First start the backend server by going to backend path mentioned above and type the following command - `node App.js`. This will start the backend server and create initial databases. (Note - As mentioned above, you need to install MongoDB and check thoroughly if it is working properly on the local)
 
 Now run `npm start` in the root path terminal to start the react app (frontend). You can then go to [http://localhost:3000/] to access the site.
